@@ -1,4 +1,4 @@
-const API_URL = "https://flaky-gisella-albertironhack-adff6543.koyeb.app/";
+const API_URL = "https://flaky-gisella-albertironhack-adff6543.koyeb.app/api/tareas";
 
 async function obtenerTareas() {
   const res = await fetch(API_URL);
